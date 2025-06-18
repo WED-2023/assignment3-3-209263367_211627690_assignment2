@@ -1,6 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
-import routes from './router/index';
+import routes from './router/index.js';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 import { createRouter, createWebHistory } from 'vue-router';
@@ -8,7 +8,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js';
 
-import store from './store';
+import store from './store.js';
 
 const router = createRouter({
   history: createWebHistory(),
